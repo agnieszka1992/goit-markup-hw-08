@@ -878,6 +878,7 @@
   .footer-background__flex {
     text-align: start;
     padding-right: 70px;
+    padding-bottom: 0;
   }
   .form-footer {
     flex-direction: row;
@@ -890,6 +891,7 @@
   }
   .media-footer {
     text-align: left;
+    padding-bottom: 40px;
   }
   .media-footer__heading-newsletter {
     padding-left: 78px;

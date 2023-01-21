@@ -91,7 +91,7 @@
       justify-content: space-around;
     }
   }
-  .media-footer__media{
+  .media-footer__media {
     padding-bottom: 102px;
   }
 }
@@ -107,6 +107,7 @@
     &__flex {
       text-align: start;
       padding-right: 70px;
+      padding-bottom: 0;
     }
   }
   .form-footer {
@@ -121,9 +122,9 @@
   }
   .media-footer {
     text-align: left;
+    padding-bottom: 40px;
     &__heading-newsletter {
       padding-left: 78px;
     }
   }
 }
-
