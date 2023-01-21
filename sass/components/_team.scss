@@ -1,0 +1,70 @@
+.page-background {
+  background-color: var(--brand-color-three);
+}
+
+.our-team {
+  margin: 0 auto;
+  padding-left: 0;
+  gap: 30px;
+
+  &__item {
+    width: 100%;
+    max-width: 450px;
+    background: var(--brand-color-one);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  &__card {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+
+    & > h4 {
+      margin: 0 auto;
+      padding-bottom: 10px;
+    }
+
+    & > p {
+      margin: 0 auto;
+      padding-bottom: 16px;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+
+  &__profession {
+    font-size: 16px;
+    line-height: 1.19;
+
+    color: var(--brand-color-four);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .our-team {
+    display: flex;
+    flex-wrap: wrap;
+    &__card {
+      margin-bottom: 0;
+    }
+    &__item {
+      max-width: 354px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team__card {
+    margin-bottom: 0;
+  }
+  .our-team__item {
+    max-width: 270px;
+  }
+}

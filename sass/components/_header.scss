@@ -1,0 +1,9 @@
+.header {
+  background-color: var(--brand-color-one);
+  border-bottom: 1px solid var(--border-header);
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,29 @@
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  padding-top: 20px;
+  font-style: inherit;
+
+  &__list {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  &__items {
+    margin-bottom: 9px;
+
+    &--grey {
+      color: rgba(255, 255, 255, 0.6);
+      transition: color 250ms var(--transition-timing-function);
+
+      &:focus,
+      &:hover {
+        color: var(--brand-color);
+      }
+    }
+  }
+
+  &__text {
+    margin: 0 auto;
+  }
+}
