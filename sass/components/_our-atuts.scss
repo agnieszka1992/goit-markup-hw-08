@@ -1,5 +1,6 @@
 .our-atuts {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   &__list {
     display: flex;
@@ -25,7 +26,6 @@
   &__title {
     font-size: 14px;
     line-height: 1.14;
-
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 10px;
@@ -33,7 +33,6 @@
 
   &__text {
     width: 450px;
-
     font-size: 14px;
     line-height: 1.71;
     display: flex;
