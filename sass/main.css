@@ -525,8 +525,7 @@
   }
 }
 .our-atuts {
-  padding-top: 60px;
-  padding-bottom: 0;
+  padding: 60px 0;
 }
 .our-atuts__list {
   display: flex;
@@ -558,13 +557,15 @@
   width: 450px;
   font-size: 14px;
   line-height: 1.71;
-  margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
   color: var(--brand-color-four);
 }
 
 @media screen and (min-width: 768px) {
+  .our-atuts {
+    padding-bottom: 45px;
+  }
   .our-atuts__icon {
     width: 354px;
   }

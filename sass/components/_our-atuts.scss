@@ -1,6 +1,5 @@
 .our-atuts {
-  padding-top: 60px;
-  padding-bottom: 0;
+  padding: 60px 0;
 
   &__list {
     display: flex;
@@ -37,7 +36,6 @@
 
     font-size: 14px;
     line-height: 1.71;
-    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     color: var(--brand-color-four);
@@ -45,16 +43,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  .our-atuts__icon {
-    width: 354px;
-  }
+  .our-atuts {
+    padding-bottom: 45px;
 
-  .our-atuts__title {
-    text-align: start;
-  }
+    &__icon {
+      width: 354px;
+    }
 
-  .our-atuts__text {
-    width: 345px;
+    &__title {
+      text-align: start;
+    }
+
+    &__text {
+      width: 345px;
+    }
   }
 }
 
